@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class Rigidbody rb : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
 
+	public Rigidbody rb;	
 
-void Start()
-{
-	Debug.Log("Hello World")
-}
+	// Start is called before the first frame update
+	void Start()
+	{
+		Debug.Log("Hello World")
+	}
 
-void Update()
-{
-
-}
+	// Update is called once per frame
+	void Update()
+	{
+		Debug.Log("Hello World evey second")
+	}
 
 }
