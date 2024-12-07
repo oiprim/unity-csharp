@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public Rigidbody rb;	
+	public Rigidbody rb;
+	public float speed;
 
 	// Start is called before the first frame update
 	void Start()
@@ -15,5 +16,6 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		Debug.Log("Hello World evey second")
 	}
+
 
 }
